@@ -57,10 +57,11 @@ nav{
 }
 
 header{
-    height: 100vh;
+    height: 90vh;
     background-color: #00000077;
     padding: 2.5%;
     text-align: center;
+    
 }
 
 h1{
@@ -70,7 +71,7 @@ h1{
     padding-bottom: 1%;
 }
 
-#Subtitle{
+.Subtitle{
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
@@ -125,9 +126,8 @@ h1{
 }
 
 main{
-    width: 75%;
-    margin: 0 auto;
     background-color: #092122;
+    padding-top: 2.5%;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -148,4 +148,18 @@ main{
     color: #ffffff;
     padding-left: 2%;
     text-decoration: none;
+}
+
+#ImageCell{
+    text-align: center;
+}
+
+#TextCell{
+    text-align: center;
+}
+
+h2, a{
+    font-size: 225%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
 }
