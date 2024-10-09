@@ -3,28 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/index.css">
-    <link rel="shortcut icon" href="./assets/img/LeagerStudios.ico" type="image/x-icon">
-    <title>LeagerStudios | Index</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="./assets/img/LeagerLogo.ico" type="image/x-icon">
+    <title>Leager by LeagerStudios</title>
 </head>
 <body>
-    <nav>
-        <a href="./index.html" class="Nav_Link">Index</a>
-        <a href="./about.html" class="Nav_Link">About us</a>
-        <a href="./leager.html" class="Nav_Link">Leager</a>
-    </nav>
     <header>
-        
-        <table>
-            <tr>
-                <td id="Text">
-                    <h1>Welcome to the LeagerStudios webpage!</h1>
-                </td>
-                <td id="Logo">
-                    <img src="./assets/img/LeagerStudios.png" alt="The logo of LeagerStudio" id="LeagerStudiosLogo">
-                </td>
-            </tr>
-        </table>
+        <div class="logo">
+            <img src="./assets/img/LeagerLogo.png" alt="ikwfgijewirj" width="50">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Introduction</a></li>
+                <li><a href="#Features">Game Features</a></li>
+                <li><a href="#SystemRequirements">System Requirements</a></li>
+                <li><a href="#DownloadLeager">Download Leager</a></li>
+            </ul>
+        </nav>
     </header>
+
+    <main>
+        <section class="hero">
+            <h1>Leager Launcher</h1>
+            <p>The launcher of Leager that allow you to update and manage your versions</p>
+            <a href="leagerlauncher.exe" class="btn" download="LeagerLauncher">Download Now</a>
+        </section>
+
+        <section class="features" id="Features">
+            <h2>Game Features</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Lot of planets</h3>
+                    <p>All the planets have different things on it. Can you explore them all?</p>
+                </div>
+                <div class="card">
+                    <h3>Variety of enemies</h3>
+                    <p>There are lot of enemies, from common ones... To nearly impossible bosses!</p>
+                </div>
+                <div class="card">
+                    <h3>Customizable Character</h3>
+                    <p>Create your character with skins!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="requirements" id="SystemRequirements">
+            <h2>System Requirements</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Minimum Requirements</h3>
+                    <ul>
+                        <li>OS: Windows 10 32/64 bits</li>
+                        <li>Processor: Intel Core i5-3210M or AMD Ryzen 5 5600H</li>
+                        <li>Memory: 4 GB RAM</li>
+                        <li>Graphics: Intel UHD Graphics 620, NVIDIA GeForce GTX 960 or AMD Radeon R9 280</li>
+                        <li>Storage: 128 MB of internal space</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Recommended Requirements</h3>
+                    <ul>
+                        <li>OS: Windows 10/11 64-bit</li>
+                        <li>Processor: Intel Core i5-12600K or AMD Ryzen 5 5600X</li>
+                        <li>Memory: 16 GB RAM</li>
+                        <li>Graphics: Intel Arc A310, NVIDIA GeForce GTX 1660 or AMD Radeon RX 590</li>
+                        <li>Storage: 1 GB SSD (For future updates)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" id="DownloadLeager">
+            <h2>Don't want the launcher?</h2>
+            <p>Download Leager now and start exploring the planets!</p>
+            <a href="leager-windows.zip" class="btn" download="LeagerLauncher">Download Leager for Windows (64-bits)</a>
+            <br>
+            <br>
+            <span>Looking for another version?</span>
+            <br>
+            <br>
+            <a href="download-archive.html">Leager Download Archive (Mac, 32-bits)</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; LeagerStudios 2024. All rights reserved.</p>
+    </footer>
 </body>
 </html>
